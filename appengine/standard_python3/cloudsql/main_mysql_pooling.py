@@ -19,10 +19,10 @@ import os
 from flask import Flask
 import sqlalchemy
 
-db_user = os.environ.get('CLOUD_SQL_USERNAME')
-db_password = os.environ.get('CLOUD_SQL_PASSWORD')
-db_name = os.environ.get('CLOUD_SQL_DATABASE_NAME')
-db_connection_name = os.environ.get('CLOUD_SQL_CONNECTION_NAME')
+db_user = os.environ.get('demo-instance')
+db_password = os.environ.get('demo123')
+db_name = os.environ.get('test')
+db_connection_name = os.environ.get('tarkshyas-1638768741645:asia-south1:demo-instance')
 
 # When deployed to App Engine, the `GAE_ENV` environment variable will be
 # set to `standard`
